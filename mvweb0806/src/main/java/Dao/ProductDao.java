@@ -11,7 +11,7 @@ import Model.Product;
 public class ProductDao {
     public ArrayList getProductList() {
         //Mysql DB Connection URL
-        String url = "jdbc:mysql://localhost:3306/classicmodels";
+        String url = "jdbc:mysql://localhost:3306/classicmodelss?serverTimezone=Asia/Taipei&useUnicode=true&characterEncoding=utf8";
         String username = "root";
         String password = "1234";
         Connection conn = null;
